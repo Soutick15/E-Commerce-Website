@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/logo.jpeg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./CheckOut.css">
+    
+    <title>View Cart - Premium E-Commerce</title>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="./images/logo.jpeg" alt="Company Logo">
+            </div>
+            <button class="menu-button" id="menu-button"><i class="fa-solid fa-bars"></i></button>
+            <nav>
+                <ul class="navLinks" id="navLinks">
+                    <li class="dropdown">
+                        <a href="#" class="nav-link">Men</a>
+                        <ul class="dropdown-content">
+                            <li><a href="#">Shoes</a></li>
+                            <li><a href="#">Jeans</a></li>
+                            <li><a href="#">Watches</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="nav-link">Women</a>
+                        <ul class="dropdown-content">
+                            <li><a href="#">Shoes</a></li>
+                            <li><a href="#">Dresses</a></li>
+                            <li><a href="#">Accessories</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="nav-link">Kids</a>
+                        <ul class="dropdown-content">
+                            <li><a href="#">Clothing</a></li>
+                            <li><a href="#">Toys</a></li>
+                            <li><a href="#">Footwear</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class="nav-link">Outlet</a>
+                        <ul class="dropdown-content">
+                            <li><a href="#">Shoes</a></li>
+                            <li><a href="#">Dresses</a></li>
+                            <li><a href="#">Accessories</a></li>
+                        </ul></li>
+                    <li><a href="#" class="nav-link">About</a></li>
+                </ul>
+            </nav>
+            <form class="search" role="search">
+                <input type="search" class="search-input" placeholder="Search..." aria-label="Search">
+                <button type="submit" class="search-button">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </form>
+            <div class="wish-cart">
+                <ul>
+                    <li><a href="">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </a></li>
+                    <li><a href="">
+                        <i class="fa-regular fa-heart"></i>
+                    </a></li>
+                    <li><a href="#" id="loginButton">
+                        <i class="fa-regular fa-user"></i>
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- View Cart Section -->
+    <main class="view-cart">
+        <h1>Your Shopping Cart</h1>
+        <div class="cart-items">
+            <div class="cart-item">
+                <img src="./images/shoes1.jpeg" alt="Product Image">
+                <div class="item-details">
+                    <h2>Product Name</h2>
+                    <p>Price: ₹2499</p>
+                    <p>Quantity: 1</p>
+                    <button class="remove-item">Remove</button>
+                </div>
+            </div>
+            <div class="cart-item">
+                <img src="./images/shoes2.jpeg" alt="Product Image">
+                <div class="item-details">
+                    <h2>Product Name</h2>
+                    <p>Price: ₹3499</p>
+                    <p>Quantity: 2</p>
+                    <button class="remove-item">Remove</button>
+                </div>
+            </div>
+        </div>
+        <div class="cart-summary">
+            <h2>Cart Summary</h2>
+            <p>Total Items: 3</p>
+            <p>Total Price: ₹9497</p>
+            <button class="checkout-button">Proceed to Checkout</button>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="social-media">
+                <a href="https://github.com/Soutick15" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.twitter.com/yourusername" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/soutick-samanta-351814179/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <div class="email">
+                <a href="mailto:soutick1505@gmail.com"><i class="fa-regular fa-envelope"></i>Write to Me</a>
+            </div>
+        </div>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+</html>
